@@ -13,7 +13,8 @@
  * shooters[5]() === 5;
  * shooters[9]() === 9;
  *
- * Don't use loop 'for' in the implementation. Try with 'while' instead.
+ * Don't use loop 'for' in the implementation. Try with 'while' and closures
+ * instead.
  *
  * @param {number} count
  *
