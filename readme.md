@@ -1,4 +1,4 @@
-# Boilerplate for JS tasks
+# Make Army
 
 **Read the guideline before start**
 

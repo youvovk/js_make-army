@@ -1,8 +1,8 @@
 {
-  "name": "js-task-boilerplate",
+  "name": "make-army",
   "version": "1.0.0",
-  "description": "js task boilerplate",
-  "main": "src/sum.js",
+  "description": "Make Army",
+  "main": "src/makeArmy.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint **/*.js"
