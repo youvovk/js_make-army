@@ -22,12 +22,17 @@
  */
 function makeArmy(count) {
   const countArr = [];
-  let indexKey = 0;
+  let seriesSolder = 0;
 
-  while (indexKey < count) {
-    const indexFunction = indexKey;
-    countArr[indexKey] = () => indexFunction;
-    indexKey++;
+  const makeSoldier = function(seriesNumber) {
+    return () => seriesNumber;
+  };
+
+  while (seriesSolder < count) {
+    const soldier = makeSoldier(seriesSolder);
+
+    countArr[seriesSolder] = soldier;
+    seriesSolder++;
   }
 
   return countArr;
